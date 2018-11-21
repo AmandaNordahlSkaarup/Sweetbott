@@ -273,7 +273,21 @@ form .submit:hover {
 	padding-left: 1.6%;
 	padding-right: 1.6%;
 }
-	
+
+/*------------------ OM OS-------------------------*/
+
+.omos-overskrift{
+	text-align: center;
+	padding-bottom:10px;
+	padding-top: 10px;
+	font-size: 50px;
+}
+
+.omos-paragraf{
+	padding-bottom: 10px;
+	padding-left: 1.6%;
+	padding-right: 1.6%;
+}
 
 /*------------------footer-------------------------*/
 
