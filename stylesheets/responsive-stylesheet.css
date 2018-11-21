@@ -147,12 +147,8 @@ nav a {
 }
 
 /*---------------kontakt side for tablet og laptop --------------------*/
-.h1-kontaktside {
-	background-color: #FFFFFF;
-	overflow: visible;
-}
 
-h1 {
+.h1-kontaktside {
 	margin: 0px 0px 0px 120px;
 	color: #3D6BB4;
 	text-transform: uppercase;
