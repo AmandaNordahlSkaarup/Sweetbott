@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+@import "simplegrid.css";
+
+/* browser /CSS reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--------- her kommer mine styles--------------*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 2%;
+	background: #3D6BB4;
+}
+
+/*-----------meny-mobile-tablet----------*/
+
+/* Style the links inside the sidenav */
+#sidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
+}
+
+#sidenav a:hover {
+    right: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#hotbot {
+    top: 20px;
+    background-color: #3D6BB4;
+}
+
+#services {
+    top: 80px;
+    background-color: #3D6BB4; 
+}
+
+#cases {
+    top: 140px;
+    background-color: #3D6BB4; 
+}
+
+#om {
+    top: 200px;
+    background-color: #3D6BB4; 
+}
+#kontakt{
+	top: 260px;
+	background: #3D6BB4;
+}
+/*------------meny-laptop---------------------*/
+.logo {
+	margin-top: 20px;
+	
+}
+.mainNav {
+	background-color: #749CD3;
+	height: 100px;
+	
+}
+	
+
+ul.menu {
+	display: inline-block;
+	text-align: right;
+	padding-top: 20px;
+	
+}
+nav ul {
+	
+	overflow: hidden;
+	padding-top: 15px;
+	padding-left: 80px;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	text-align: right;
+}
+
+nav a {
+	display:block;
+	padding: 15px;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;
+	color: #000000;	
+}
+
+/*---------------kontakt side for tablet og laptop --------------------*/
+h1 {
+	margin: 0px 0px 0px 120px;
+	color: #3D6BB4;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+}
+
+form {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.form-kontrol {
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: solid 2px #3D6BB4;
+	font-size: 18px;
+	margin-bottom: 15px;
+	
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #3D6BB4;
+	border-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 60px;
+}
+
+form .submit:hover {
+	background-color: crimson;
+	cursor: pointer;
+}
+
+/* ------------------forside-------------------*/
+
+.content {
+	background-color: #FFFFFF;
+	overflow: visible;
+}
+
+/*slide show grid*/
+.slide {
+	text-align: center;
+	margin-top: 0%;
+
+}
+/*sliderammen som eksempel.*/
+.ramme {
+	object-position: center;
+	width: 800px;
+	
+}
+
+.design {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.design2 {
+	margin-left: 50px;
+	margin-top: 100px;
+	margin-bottom: 100px
+}
+
+.design3 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 50px;
+}
+.design4 {
+	margin-top: 20px;
+	margin-bottom: 100px;
+	margin-left: 50px;
+}
+
+.tilbyder {
+	background-color: #3D6BB5;
+	text-align: center;
+	height: 50px;
+}
+
+.forsidetilbyd {
+	margin-top: 20px;
+	font-size: 25px;
+	
+	
+}
+/*------------------footer-------------------------*/
+
+.footer {
+
+	color: #3D6BB5;
+	margin-top: 1%;
+	height: 80px;
+	border-top: 2px solid #000000;
+	background: #749CD3;
+
+}
+
+
+
+/* ------------------@media screen----------------------- */
+
+@media screen and (min-width: 1000px) {
+	#sidenav {
+		display: none;
+	}
+	.logoTab {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.mainNav {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.footer {
+		display: none;
+	}
+}
