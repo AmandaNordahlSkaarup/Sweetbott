@@ -78,7 +78,7 @@ body {
     width: 100px; /* Set a specific width */
     text-decoration: none; /* Remove underline */
     font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
+    color: #2A1000; /* White text color */
     border-radius: 5px 5px 5px 5px; /* Rounded corners on the top right and bottom right side */
 }
 
@@ -89,26 +89,26 @@ body {
 /* The about link: 20px from the top with a green background */
 #hotbot {
     top: 20px;
-    background-color: #3D6BB4;
+    background-color: #B5B2B0;
 }
 
 #services {
     top: 80px;
-    background-color: #3D6BB4; 
+    background-color: #B5B2B0; 
 }
 
 #cases {
     top: 140px;
-    background-color: #3D6BB4; 
+    background-color: #B5B2B0; 
 }
 
 #om {
     top: 200px;
-    background-color: #3D6BB4; 
+    background-color: #B5B2B0; 
 }
 #kontakt{
 	top: 260px;
-	background: #3D6BB4;
+	background: #B5B2B0;
 }
 /*------------meny-laptop---------------------*/
 .logo {
@@ -163,46 +163,71 @@ nav a {
 
 .backkontakt {
 	background: #FFFFFF;
-	padding: 0 20%;
-	margin: 20px 9.5%;
-}
+	padding: 0;
+	margin: 20px 10%;
+} 
 
-form {
-	text-align: center;
-	margin-top: 50px;
-}
-
-.form-kontrol {
-	width: 600px;
-	background: transparent;
-	border: none;
-	outline: none;
-	border-bottom: solid 2px #2A1000;
-	font-size: 18px;
-	margin-bottom: 15px;
+.wrapper {
+	position: relative;
+	margin-top: auto;
+	padding-top: 20px;
+	align-content: center;
+	
+	
 	
 }
 
-input{
-	height: 45px;
+.contakt-form {
+	
+	margin: 0 auto;
+	background: transperent;
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	
 }
 
-form .submit{
+.input-fields {
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+	
+}
+
+.input-fields,
+.msg {
+	width: 20%;
+	
+}
+
+.input-fields .input,
+.msg textarea {
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #2A1000;
+	padding: 10px;
+	width: 100%;
+}
+
+.msg textarea {
+	height: 220px;
+}
+
+::-webkit-input-placeholder {
+	color: #3D6BB4;
+}
+
+.btn {
 	background: #3D6BB4;
-	border-color: transparent;
-	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	height: 50px;
-	margin-top: 20px;
-	border-radius: 60px;
-}
-
-form .submit:hover {
-	background-color: #749CD3;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	color: #FFFFFF;
 	cursor: pointer;
+	text-transform: uppercase;
+	
 }
-
 /* ------------------forside-------------------*/
 
 .content {
@@ -329,6 +354,9 @@ form .submit:hover {
 	.logoTab {
 		display: none;
 	}
+	.wrapper {
+		margin: 0 50px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -340,5 +368,17 @@ form .submit:hover {
 @media screen and (max-width: 600px) {
 	.footer {
 		display: none;
+	}
+
+	.contakt-form {
+		flex-direction: column;
+	}
+	.msg textarea {
+		height: 80px;
+	}
+	
+	.input-fields,
+	.msg {
+		width: 100%;
 	}
 }
