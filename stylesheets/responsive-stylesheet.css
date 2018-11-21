@@ -61,6 +61,12 @@ body {
 	background: #3D6BB4;
 }
 
+.container {
+	background: #FFFFFF;
+	padding: 20%;
+	overflow: visible;
+}
+
 /*-----------meny-mobile-tablet----------*/
 
 /* Style the links inside the sidenav */
@@ -199,7 +205,7 @@ form .submit:hover {
 
 /* ------------------forside-------------------*/
 
-.content {
+/*.content {
 	background-color: #FFFFFF;
 	overflow: visible;
 }
