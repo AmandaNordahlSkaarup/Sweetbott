@@ -248,7 +248,7 @@ form .submit:hover {
 	font-size: 25px;
 }
 
-/* ------------------services------------------ */
+/* ------------------SERVICES------------------ */
 
 .services-overskrift {
 	text-align: center;
@@ -261,12 +261,16 @@ form .submit:hover {
 .services-underoverskrift{
 	text-align: left;
 	padding-bottom: 2px;
+	padding-left: 3%;
+	padding-right: 3%;
 	font-size: 30px;
 	
 }
 
 .services-paragraf{
 	padding-bottom: 10px;
+	padding-left: 1.6%;
+	padding-right: 1.6%;
 }
 	
 
