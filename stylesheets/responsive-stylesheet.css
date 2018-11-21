@@ -272,6 +272,7 @@ form .submit:hover {
 	padding-bottom: 10px;
 	padding-left: 1.6%;
 	padding-right: 1.6%;
+	line-height: 25px;
 }
 
 /*------------------ OM OS-------------------------*/
@@ -287,7 +288,17 @@ form .submit:hover {
 	padding-bottom: 10px;
 	padding-left: 1.6%;
 	padding-right: 1.6%;
+	line-height: 25px;
 }
+
+.box1{
+	background: grey;
+	outline: 1px solid black;
+	padding-left:20%;
+	padding-top: 40%;
+}
+
+
 
 /*------------------footer-------------------------*/
 
