@@ -291,13 +291,20 @@ form .submit:hover {
 	line-height: 25px;
 }
 
-.box1{
-	background: grey;
+.box{
+	background: lightgrey;
 	outline: 1px solid black;
-	padding-left:20%;
-	padding-top: 40%;
+	padding-left:15%;
+	padding-right: 15%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	font-style: oblique;
 }
 
+.kundefeedback{
+	font-style:normal;
+	padding-top: 10%;
+}
 
 
 /*------------------footer-------------------------*/
