@@ -147,10 +147,14 @@ nav a {
 }
 
 /*---------------kontakt side for tablet og laptop --------------------*/
+.kontaktt {
+	
+}
+
 
 .h1-kontaktside {
 	margin: 0px 0px 0px 120px;
-	color: #3D6BB4;
+	color: #2A1000;
 	text-transform: uppercase;
 	text-align: center;
 	float: left;
@@ -177,7 +181,7 @@ input{
 }
 
 form .submit{
-	background: #3D6BB4;
+	background: #3D;
 	border-color: transparent;
 	font-size: 20px;
 	font-weight: bold;
@@ -188,7 +192,7 @@ form .submit{
 }
 
 form .submit:hover {
-	background-color: #3D6BB4;
+	background-color: #749CD3;
 	cursor: pointer;
 }
 
