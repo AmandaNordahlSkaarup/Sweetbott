@@ -249,12 +249,20 @@ form .submit:hover {
 .services-overskrift {
 	text-align: center;
 	padding-bottom:10px;
+	padding-top: 10px;
+	font-size: 50px;
+
 }
 
 .services-underoverskrift{
 	text-align: left;
 	padding-bottom: 2px;
+	font-size: 30px;
 	
+}
+
+.services-paragraf{
+	padding-bottom: 10px;
 }
 	
 
