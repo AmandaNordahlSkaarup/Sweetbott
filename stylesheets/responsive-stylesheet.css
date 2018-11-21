@@ -246,9 +246,22 @@ form .submit:hover {
 .forsidetilbyd {
 	margin-top: 20px;
 	font-size: 25px;
-	
+}
+
+/* ------------------services------------------ */
+
+.services-overskrift {
+	text-align: center;
+	padding-bottom:10px;
+}
+
+.services-underoverskrift{
+	text-align: left;
+	padding-bottom: 2px;
 	
 }
+	
+
 /*------------------footer-------------------------*/
 
 .footer {
