@@ -151,6 +151,20 @@ nav a {
 	font-size: 20px;
 	color: #000000;	
 }
+/*----------------Hotbot side-----------------------------------------*/
+.hotbotLogo {
+	width: 60%;
+	height: 60%;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 2%;
+	}
+.hotbotText {
+	text-align: center;
+	padding: 0% 20% 0% 20%
+	
+}
 
 /*---------------kontakt side for tablet og laptop --------------------*/
 
@@ -234,6 +248,9 @@ nav a {
 
 .content {
 	background-color: #FFFFFF;
+	overflow: visible;
+}
+.content2{
 	overflow: visible;
 }
 
@@ -459,7 +476,7 @@ nav a {
 
 .footer {
 
-	color: #3D6BB5;
+	color: #2A1000;
 	margin-top: 1%;
 	height: 100px;
 	/*border-top: 2px solid #000000;*/
