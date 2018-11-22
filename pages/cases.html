@@ -9,39 +9,6 @@
 
 <body>
 	
-	<script>
-	var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-	</script>
-	
 	<div class="logoTab">
 		<div class="grid grid-pad">
 			<div class="col-3-12">
@@ -90,38 +57,45 @@ function showSlides(n) {
 	
 	<h1 class="case">CASES</h1>
 	
-	<!-- The grid: four columns -->
-<div class="row">
-  <div class="column">
-    <img src="../img/kosmetik1.jpg" alt="Nature" onclick="openImg(this);">
-  </div>
-  <div class="column">
-    <img src="../img/krydderier2.jpg" alt="Snow" onclick="openImg(this);">
-  </div>
-  <div class="column">
-    <img src="../img/spa1.jpg" alt="Mountains" onclick="openImg(this);">
-  </div>
-  <div class="column">
-    <img src="../img/tøjbutik1.jpg" alt="Lights" onclick="openImg(this);">
-  </div>
+<div class="gallery">	
+	<img src="../img/kosmetik.jpg" alt="foto1">
 </div>
-
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
+<div class="gallery">
+	<img src="../img/krydderier.jpg" alt="foto2">
+</div>
+<div class="gallery">
+	<img src="../img/spa.jpg" alt="foto3">
+</div>
+<div class="gallery">
+	<img src="../img/tøjbutik.jpg" alt="foto4">
 </div>
 	
+		
 	<footer class="footer">
-		<div class="copy">
-		&copy; copyright Sweetbot
+	<div class="col-1-1">
+		
+		<div class="col-1-3 ">
+			<p class="kontaktfooter afstandtilkontaktfooter">Landemærket 11</p>
+			<p class="kontaktfooter">2800 Kongens Lyngby</p>
+			<p class="kontaktfooter">+45 46 27 16 29</p>
+			<p class="kontaktfooter">info@sweetbotdesign.dk</p>
+			<p class="kontaktfooter">CVR: 3167 8021</p>	
 		</div>
+		
+		<div class="col-1-3">
+			<p class="copyright">&copy; Copyright Sweetbot Design</p>
+		</div>
+			
+		<div class="col-1-3">
+			<img src="../img/socialmediaiconer/facebook.png" class="socialmediaicon" alt="facebook">
+			<img src="../img/socialmediaiconer/instagram.png" class="socialmediaicon" alt="instagram">
+			<img src="../img/socialmediaiconer/linkedin.png" class="socialmediaicon" alt="linkedin">
+		</div>
+	
+		
+	
+	</div>
+
 	</footer>
 	
 </body>
