@@ -338,7 +338,7 @@ nav a {
 
 /*------------------slideshov til forsiden-------------------*/
 .case {
-	padding: 5% 20% 0 ;
+	padding: 5% 20% 2%  ;
 	color: #2A1000;
 	text-transform: uppercase;
 	text-align: center;
@@ -437,11 +437,7 @@ nav a {
 /*----------------Cases-------------------------*/
 
 .gallery {
-    margin: 20px;
-    border: 1px solid #ccc;
-    float: left;
     width: 20%;
-	display: block;
 	text-align: center;
 }
 
@@ -547,7 +543,6 @@ nav a {
 	float: right;
 	padding-top: 20px;
 }
-
 
 
 /* ------------------@media screen----------------------- */
