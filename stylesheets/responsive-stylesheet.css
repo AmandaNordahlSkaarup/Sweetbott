@@ -162,7 +162,14 @@ nav a {
 	}
 .hotbotText {
 	text-align: center;
-	padding: 0% 20% 0% 20%
+	padding: 0% 20% 5% 20%;
+	color: #707070;
+	font-size: 18px;
+}
+.hotbotOverskrift {
+	text-align: center;
+	color: #707070;
+	font-size: 20px;
 	
 }
 
