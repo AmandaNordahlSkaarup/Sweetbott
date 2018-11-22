@@ -151,6 +151,40 @@ nav a {
 	font-size: 20px;
 	color: #000000;	
 }
+
+/* DET VI TILBYDER */
+
+.iconercontainer{
+	display: inline-block;
+}
+
+.teksttiliconer{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.teksttiliconer1{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.teksttiliconer2{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.teksttiliconer3{
+	padding-bottom: 30px;
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+
 /*----------------Hotbot side-----------------------------------------*/
 .hotbotLogo {
 	width: 60%;
@@ -269,23 +303,24 @@ nav a {
 }
 
 .design {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
+
 .design2 {
 	margin-left: 50px;
-	margin-top: 100px;
-	margin-bottom: 100px
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .design3 {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 	margin-left: 50px;
 }
 .design4 {
 	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 	margin-left: 50px;
 }
 
