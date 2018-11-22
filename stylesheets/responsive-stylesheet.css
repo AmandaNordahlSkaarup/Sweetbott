@@ -714,6 +714,9 @@ div.descbot {
 	.mainNav {
 		display: none;
 	}
+	.medarbejder {
+		width: 100%;
+	}
 }
 
 /* TELEFON */
@@ -734,6 +737,9 @@ div.descbot {
 	.msg {
 		width: 100%;
 	}
+	.medarbejder {
+		width: 100%;
+	}
 }
 /*hotbot gallery*/
 @media only screen and (max-width: 700px) {
@@ -741,6 +747,9 @@ div.descbot {
         width: 49.99999%;
         margin: 6px 0;
     }
+	.medarbejder {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 500px) {
