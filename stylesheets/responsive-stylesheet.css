@@ -441,10 +441,31 @@ nav a {
 
 	color: #3D6BB5;
 	margin-top: 1%;
-	height: 80px;
-	border-top: 2px solid #000000;
+	height: 100px;
+	/*border-top: 2px solid #000000;*/
 	background: #749CD3;
 
+}
+
+.kontaktfooter{
+	padding-left: 7%;
+
+}
+
+.afstandtilkontaktfooter{
+	padding-top: 8px;
+}
+
+.copyright{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.socialmediaicon{
+	width: 10%;
+	height: auto;
+	float: right;
+	padding-top: 20px;
 }
 
 
