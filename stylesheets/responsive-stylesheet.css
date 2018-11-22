@@ -189,6 +189,7 @@ nav a {
 .hotLogo {
 	width: 60%;
 	height: 60%;
+	margin-top: 2%;
 	 display: block;
     margin-left: auto;
     margin-right: auto;
@@ -208,16 +209,25 @@ nav a {
 	
 }
 div.galbot {
-    border: 1px solid #ccc;
+   
 }
 
 div.galbot:hover {
+    border: 1px solid #777;
+}
+div.galkryd:hover {
     border: 1px solid #777;
 }
 
 div.galbot img {
     width: 100%;
     height: auto;
+	border: 1px solid #ccc;
+}
+div.galkryd img {
+    width: 100%;
+    height: 300px;
+	border: 1px solid #ccc;
 }
 
 div.descbot {
