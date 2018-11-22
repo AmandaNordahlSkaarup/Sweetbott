@@ -144,7 +144,7 @@ nav li {
 nav a {
 	display:block;
 	padding: 15px;
-	font-weight: 100;
+	font-weight: 300;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -208,14 +208,17 @@ nav a {
 	padding-bottom: 2%;
 	
 }
-div.galbot {
-   
-}
 
 div.galbot:hover {
     border: 1px solid #777;
 }
 div.galkryd:hover {
+    border: 1px solid #777;
+}
+div.galhjem:hover {
+    border: 1px solid #777;
+}
+div.galtoj:hover {
     border: 1px solid #777;
 }
 
@@ -226,7 +229,17 @@ div.galbot img {
 }
 div.galkryd img {
     width: 100%;
-    height: 300px;
+    height: 219px;
+	border: 1px solid #ccc;
+}
+div.galhjem img {
+    width: 100%;
+    height: 214px;
+	border: 1px solid #ccc;
+}
+div.galtoj img {
+    width: 100%;
+    height: 224px;
 	border: 1px solid #ccc;
 }
 
@@ -620,12 +633,26 @@ div.descbot {
 	padding-top: 20%;
 	padding-bottom: 20%;
 	font-style: oblique;
+	margin-bottom: 2px;
+}
+.boxfour{
+	background: lightgrey;
+	outline: 1px solid black;
+	padding-left:15%;
+	padding-right: 12%;
+	padding-top: 20%;
+	padding-bottom: 16%;
+	margin-bottom: 8px;
+	font-style: oblique;
 }
 
 
 .kundefeedback{
 	font-style:normal;
 	padding-top: 10%;
+}
+.medarbejder {
+	width: 50%;
 }
 
 
