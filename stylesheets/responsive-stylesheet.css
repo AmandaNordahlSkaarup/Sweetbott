@@ -339,8 +339,8 @@ nav a {
 .case {
 	padding: 5% 20% 2%  ;
 	color: #2A1000;
-	text-transform: uppercase;
 	text-align: center;
+	font-size: 50px;
 }
 
 * {
@@ -433,6 +433,8 @@ nav a {
 .demo:hover {
   opacity: 1;
 }
+
+
 /*----------------Cases-------------------------*/
 
 .gallery {
@@ -449,6 +451,45 @@ nav a {
     height: auto;
 }
 
+.containerKos {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containerKos:hover .image {
+  opacity: 0.3;
+}
+
+.containerKos:hover .middle {
+  opacity: 1;
+}
+
+.textCase {
+  background-color: #DF9B67;
+  color: #2A1000;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 
 /* ------------------SERVICES------------------ */
 
