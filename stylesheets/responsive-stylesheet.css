@@ -488,6 +488,18 @@ div.descbot {
     position: relative;
     width: 50%;
 }
+.containerKryd {
+	position: relative;
+	width: 50%;
+}
+.containerSpa {
+	position: relative;
+	width: 50%;
+}
+.containertoj {
+	position: relative;
+	width: 50%;
+}
 
 .image {
   opacity: 1;
@@ -512,9 +524,26 @@ div.descbot {
 .containerKos:hover .image {
   opacity: 0.3;
 }
-
+.containerKryd:hover .image {
+	opacity: 0.3;
+}
+.containerSpa:hover .image {
+	opacity: 0.3;
+}
+.containertoj:hover .image {
+	opacity: 0.3;
+}
 .containerKos:hover .middle {
   opacity: 1;
+}
+.containerKryd:hover .middle {
+	opacity: 1;
+}
+.containerSpa:hover .middle {
+	opacity: 1;
+}
+.containertoj:hover .middle {
+	opacity: 1;
 }
 
 .textCase {
