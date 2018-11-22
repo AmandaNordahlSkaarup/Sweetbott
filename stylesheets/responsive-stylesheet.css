@@ -186,7 +186,7 @@ nav a {
 }
 
 /*----------------Hotbot side-----------------------------------------*/
-.hotbotLogo {
+.hotLogo {
 	width: 60%;
 	height: 60%;
 	 display: block;
@@ -194,17 +194,49 @@ nav a {
     margin-right: auto;
 	padding-bottom: 2%;
 	}
-.hotbotText {
+.hotText {
 	text-align: center;
 	padding: 0% 20% 5% 20%;
 	color: #707070;
 	font-size: 18px;
 }
-.hotbotOverskrift {
+.hotOverskrift {
 	text-align: center;
 	color: #707070;
 	font-size: 20px;
+	padding-bottom: 5%;
 	
+}
+div.galbot {
+    border: 1px solid #ccc;
+}
+
+div.galbot:hover {
+    border: 1px solid #777;
+}
+
+div.galbot img {
+    width: 100%;
+    height: auto;
+}
+
+div.descbot {
+    padding: 15px;
+    text-align: center;
+}
+
+.galRes {
+    padding: 6px;
+	float: left;
+    width: 24.99999%;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*---------------kontakt side for tablet og laptop --------------------*/
@@ -588,4 +620,17 @@ nav a {
 	.msg {
 		width: 100%;
 	}
+}
+/*hotbot gallery*/
+@media only screen and (max-width: 700px) {
+    .galRes {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .galRes {
+        width: 100%;
+    }
 }
