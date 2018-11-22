@@ -332,6 +332,7 @@ nav a {
 	font-style: oblique;
 }
 
+
 .kundefeedback{
 	font-style:normal;
 	padding-top: 10%;
@@ -354,6 +355,10 @@ nav a {
 
 /* ------------------@media screen----------------------- */
 
+/* FOR AT GØRE DET RESPONSIVT */
+
+/* DESKTOP og LAPTOP */
+
 @media screen and (min-width: 1000px) {
 	#sidenav {
 		display: none;
@@ -366,11 +371,15 @@ nav a {
 	}
 }
 
+/* KOMBI MELLEM TLF OG TABLET */
+
 @media screen and (max-width: 1000px) {
 	.mainNav {
 		display: none;
 	}
 }
+
+/* TELEFON */
 
 @media screen and (max-width: 600px) {
 	.footer {
