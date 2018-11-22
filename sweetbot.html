@@ -10,6 +10,39 @@
 
 <body>
 	
+	<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+	</script>
+	
 	<div class="logoTab">
 		<div class="grid grid-pad">
 			<div class="col-3-12">
@@ -58,9 +91,61 @@
 	</div>		
 	<div class="col-1-1">
 		<div class="content slide">
-			<img src="img/rammeArtboard 3hdpi.jpg" alt="Computer with paintbrush" class="ramme"> 
+			<div class="ramme slideshow"> 
+			<h1 class="case">HOTBOT</h1>
+	
+	<!-- Container for the image gallery -->
+<div class="container-gallary">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="img/kosmetik1.jpg" alt="imgForside" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="img/krydderier2.jpg" alt="imgForside" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="img/spa1.jpg" alt="imgForside" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="img/tøjbutik1.jpg" alt="imgForside" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/kosmetik1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kosmetik">
+    </div>
+    <div class="column"> 
+      <img class="demo cursor" src="img/krydderier2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Kryddeributik">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/spa1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Spa">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/tøjbutik1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Tøjbutik">
+    </div>
+  </div>
+</div>
+			</div>
 				<div class="rammelorem">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat libero assumenda repellendus sunt, consequatur pariatur! Est enim, deleniti et!</p>
+					<br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat libero assumenda repellendus sunt, consequatur pariatur! Est enim, deleniti et!</p><br><br>
 				</div>
 			</div>
 			 </div>
